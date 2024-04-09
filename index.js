@@ -1,5 +1,4 @@
 const showdown = require('showdown');
-const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const converter = new showdown.Converter();

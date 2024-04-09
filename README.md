@@ -1,5 +1,6 @@
-## Simple tool to convert Markup to a webpage
+## Using markup to make assignments
 #### To use
-1) Paste the markup text which you want to convert in content.md
-2) Run ``` npm i``` to install required packages
-3) Finally run ```npm start``` to view the webpage created in local host
+1) Type the assignment in content.md 
+2) open the output.html in your browser
+3) Run ``` npm i``` in the terminal to install required packages
+4) Finally run ```node main.js``` to start the program.
