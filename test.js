@@ -1,15 +1,3 @@
-# Assignment
-### A good question
-
-```python
-print("an answer in python code")
-```
-ans) Further answer continues
-
-> Things to remember
->> some more things to remember
-
-```js
 // Assuming this file is named something like "runGenerator.js"
 const { exec } = require('child_process');
 
@@ -25,5 +13,3 @@ exec(command, (error, stdout, stderr) => {
   console.log(`stdout: ${stdout}`);
   console.error(`stderr: ${stderr}`);
 });
-```
-A good set of javascript code is here

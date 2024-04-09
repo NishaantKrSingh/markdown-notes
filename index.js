@@ -2,10 +2,8 @@ const showdown = require('showdown');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-
 const converter = new showdown.Converter();
 let modifiedData = ''; // Define modifiedData variable outside of fs.readFile scope
-
 // Read the markdown content
 fs.readFile(path.join(__dirname, 'content.md'), 'utf8', (err, data) => {
   if (err) {
@@ -28,8 +26,6 @@ fs.readFile(path.join(__dirname, 'content.md'), 'utf8', (err, data) => {
     });
     
   });
-});
-
-
+}); 
 
 
